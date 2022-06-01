@@ -1,0 +1,14 @@
+if there is a class Animal
+and a class Dog that extends Animal
+
+Now if we create Animal a = new Animal();
+                 Dog d = (dog) a;
+
+
+Here we will get ClassCastException,beacause parent class is not pointing to the child class object
+So,if we want to downcast the parent class variable ,it should be refering child class.
+i.e Animal a = new Dog();
+	
+    Dog d = (dog) a;
+
+Now we will not get any error
