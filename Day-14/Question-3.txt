@@ -1,0 +1,31 @@
+Final keyword:-
+---------------
+the word "final" is user with a
+--> variable    :- if a variable is final then it cannot be changed i.e reassigned
+--> class       :- if a class is final then it cannot be extended.
+--> method      :- if a method is final then it cannot be Overridden at all.
+
+eg:- final int i = 20;
+
+	i = 30;   //we will get error because it cannot be changed.
+
+
+-------------------------------------------------------------------------------------
+
+finnaly block :-
+-------------------
+it is used in exception handling
+--> irrespective of try and catch block if we want to execute some code then it should be placed in 
+    finally block.
+--> It should not be used individually.it should always be used along with try and catch block
+
+eg: - try{
+		statement
+	}
+	catch{
+		statement
+	}
+	finally{
+		statement
+		
+	}
