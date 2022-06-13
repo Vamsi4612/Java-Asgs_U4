@@ -1,0 +1,59 @@
+Checked Exception:-
+--------------------
+Exceptions that extends the Exception class except runtimeException are called as the checked exception
+
+public InvalidDateEception extends Exception{
+
+	public InvalidDateExcetion(message){
+		super(message);
+	}
+	
+	public InvalidDateExcetion(){
+		
+	}
+
+}
+
+Unchecked Exception:-
+--------------------------
+Exceptions that extends the RuntimeException class are called as the unchecked exception
+
+public InvalidDateEception extends RuntimeException{
+
+	public InvalidDateExcetion(message){
+		super(message);
+	}
+	
+	public InvalidDateExcetion(){
+		
+	}
+}
+----------------------------------------------------------------------------
+
+2.Difference between the throw and throws keyword in Java:-
+----------------------------------------------------------
+throw:-
+--------
+it is used to throw the exception by creating the exception objet
+
+throws:-
+---------
+it is declared in method signature to say that code may throw exception.So we can use try-catch blocks to handle the exception.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
