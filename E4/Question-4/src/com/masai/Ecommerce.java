@@ -10,7 +10,7 @@ public class Ecommerce {
 		int flag = 0;
 		for(Product p : productList) {
 			if(p.name.equals(product.name) && p.company.equals(product.company) && p.price == (product.price)) {
-				p.count = p.count;
+				p.count = p.count+product.count;
 				System.out.println("Count updated Product already exists");
 				flag = 1;
 			}	
