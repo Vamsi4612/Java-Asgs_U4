@@ -1,0 +1,7 @@
+Transient:
+------------
+While we are serializing an object, then if we don't to serialize some data which is present in that serializing object then we should use the word "Transient".
+if we use the word the befor a variable name then that particular data will not be serialized
+Note:- 1.we can use transient keyword only with the Variables
+		we cannot use it for methods
+	 2.static variables are not part of object, hence they will also not participate in 	   serialization.
